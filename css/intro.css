@@ -1,0 +1,50 @@
+.intro-title {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #2e2058;
+    padding-top: 2rem;
+}
+
+.intro-desc {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    width: 40rem;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    line-height: 1.5;
+    padding-bottom: 1.6rem;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-btn {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    padding: 0.8rem;
+    border-style: none;
+    background-color: yellow;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+
+
+}
+
+.intro-btn:hover {
+    box-shadow: 5px 5px 10px #000000;
+    transform: scale(1.1);
+}
+
+.intro-stats-img {
+    padding-top: 1rem;
+}
+
+.intro-stats-img {
+    width: 35rem;
+}

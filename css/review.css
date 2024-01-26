@@ -1,0 +1,37 @@
+#reviews {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.reviews-title {
+    font-size: 20px;
+    color: #2E2058;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.review-img {
+    align-items: center;
+}
+
+.google-img {
+    width: 2rem;
+}
+
+.google-review {
+    background-color: #2E2058;
+    width: fit-content;
+    margin: auto;
+    padding: 0.8rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.review-text {
+    color: yellow;
+}

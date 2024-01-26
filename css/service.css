@@ -1,0 +1,87 @@
+body {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+
+}
+
+#service {
+    padding-top: 5rem;
+}
+
+.service-title {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.service-title-desc {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #2e2058;
+}
+
+.service-part1,
+.service-part2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.website-dev,
+.branding,
+.digital-marketing {
+    box-shadow: 0 0 15px #00000050;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+
+.web-dev-img,
+.digital-marketing-img,
+.branding-img {
+    width: 8rem;
+    padding: 1rem 1rem;
+}
+
+.web-dev-title {
+    /* text-align: center; */
+    font-weight: bold;
+
+    padding: 1rem 0 1rem 0;
+}
+
+.web-dev-desc {
+    font-size: 15px;
+    width: 15rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 1rem;
+    /* text-align: center; */
+
+}
+
+.website-dev:hover,
+.branding:hover,
+.digital-marketing:hover {
+    background-color: #2e2058;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #000000;
+
+    .web-dev-title {
+        color: yellow;
+    }
+}
+
+.service-part1-cards,
+.serice-part2-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}

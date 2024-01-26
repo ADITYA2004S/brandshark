@@ -1,0 +1,88 @@
+.blog-heading {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: #2E2058;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.blog-title {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #2E2058;
+    text-align: center;
+}
+
+.blog-cards {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding-bottom: 4rem;
+}
+
+.blog-img {
+    width: 20rem;
+}
+
+.blog-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 10rem;
+}
+
+.blog-card1,
+.blog-card2,
+.blog-card3 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.card-desc {
+    width: 20rem;
+}
+
+a {
+    color: #2E2058;
+}
+
+.blog-link {
+    text-align: center;
+    background-color: #2E2058;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    width: fit-content;
+    margin: auto;
+    transition: 300ms;
+
+}
+
+.blog-link:hover {
+    background-color: white;
+    color: #2E2058;
+    border-style: solid;
+}
+
+.card-heading {
+    text-align: center;
+    font-size: 30px;
+    color: #2E2058;
+    font-weight: bolder;
+}

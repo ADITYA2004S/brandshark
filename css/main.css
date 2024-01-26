@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+}
+
+@import "css/about.css";
+@import "css/client.css";
+@import "css/founders.css";
+@import "css/intro.css";
+@import "css/nav.css";
+@import "css/service.css";
